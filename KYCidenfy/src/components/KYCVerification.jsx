@@ -14,7 +14,7 @@ const KYCVerification = () => {
 
     try {
       const res = await axios.post(
-        '/api/kyc/initiate/',
+        'https://17f972bf0c45.ngrok-free.app/api/kyc/initiate/',
         {},
         { headers: { Authorization: `Bearer ${token}` } }
       );
